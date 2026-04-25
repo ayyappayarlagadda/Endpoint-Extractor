@@ -17,7 +17,7 @@ To use this extension, you will need to install it locally using Chrome's "Load 
 
 **Bash**
 
-    git clone https://github.com/Ayyappachowdary/Endpoint-Extractor.git
+    git clone https://github.com/ayyappayarlagadda/Endpoint-Extractor.git
 
  - Open Extensions Page: Open your Google Chrome browser and type the
    following into your URL address bar, then hit Enter: `chrome://extensions/` 
