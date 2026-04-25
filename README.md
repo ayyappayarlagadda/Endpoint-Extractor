@@ -3,6 +3,8 @@
 ## 📖 Description
 
 The Endpoint Extractor is a powerful Chrome extension designed to help developers, security researchers, and QA engineers easily extract and analyze API endpoints directly from any web interface. By observing the web application's traffic and structure, this tool maps out the application's routing and provides a clean, organized view of the available endpoints.
+<img width="502" height="500" alt="image" src="https://github.com/user-attachments/assets/25e693cf-eae6-4b19-bf25-add24367116c" />
+
 
 ## ✨ Features
 
