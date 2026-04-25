@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Pro API Request Exporter",
+  "version": "1.5",
+  "author": "Ayyappa Yarlagadda",
+  "description": "Developed by Ayyappa Yarlagadda. Live UI filters, search, expandable headers/bodies, and copy to cURL.",
+  "permissions": [
+    "webRequest",
+    "storage",
+    "downloads"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

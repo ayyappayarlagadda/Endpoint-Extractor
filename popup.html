@@ -1,0 +1,56 @@
+<!-- Developed by Ayyappa Yarlagadda | Version 1.5 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <div class="header-title">
+      <h2>Endpoint Exporter</h2>
+      <span id="countBadge" class="badge">0</span>
+    </div>
+    <div class="actions">
+      <button id="clearBtn" class="btn btn-secondary">Clear</button>
+      <button id="exportBtn" class="btn btn-primary">Export HAR</button>
+    </div>
+  </div>
+  
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Search endpoints (e.g., /api/v1/ or domain.com)...">
+  </div>
+
+  <div class="toolbar">
+    <label class="checkbox-container">
+      <input type="checkbox" id="selectAll">
+      <span class="checkmark"></span>
+      Select All
+    </label>
+    
+    <div class="toggles">
+      <div class="toggle-wrapper" title="Only show XHR/Fetch API calls">
+        <span class="toggle-label">API Only</span>
+        <label class="switch">
+          <input type="checkbox" id="toggleAPI">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="toggle-wrapper" title="Hide JS files">
+        <span class="toggle-label">Filter JS</span>
+        <label class="switch js-switch">
+          <input type="checkbox" id="toggleJS">
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </div>
+  </div>
+  
+  <ul id="requestList">
+  </ul>
+
+  <div class="footer">Developed by Ayyappa Yarlagadda | v1.5</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
